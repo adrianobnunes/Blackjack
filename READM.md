@@ -12,3 +12,7 @@ O jogo **Blackjack** ou o **Vinte-e-um** é um jogo de cartas que pode ser jogad
 - As cartas tem um valor de acordo com seu número (a carta 4♣️ tem valor 4, e a carta 9♦️ tem valor 9). As cartas J, Q e K tem valor 10, e a carta A tem valor 11.
 - O jogo inicia com cada jogador (usuário e computador) recebendo 2 cartas. A pontuação de cada jogador é a soma do valor das suas cartas.
 - O jogador com a maior pontuação ganha a rodada!
+
+
+#Link do Jogo
+https://old-eggs.surge.sh/
