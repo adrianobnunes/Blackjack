@@ -1,4 +1,4 @@
-#BLACKJACK
+# BLACKJACK
 
 Este projeto tem como a principal linguagemd e programação o **JavaScript** e tem como objetivor de praticar conecimentos adquiridos no Curso Web FullStack relazido pela *Labenu*.
 
@@ -14,5 +14,5 @@ O jogo **Blackjack** ou o **Vinte-e-um** é um jogo de cartas que pode ser jogad
 - O jogador com a maior pontuação ganha a rodada!
 
 
-#Link do Jogo
+# Link do Jogo
 https://old-eggs.surge.sh/
