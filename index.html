@@ -3,12 +3,53 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Future4 - Blackjack</title>
+    <title>Blackjack</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script type="application/javascript" src="naoMexer.js"></script>
+    <div class="page-container">
+      <header class="cabecalho-container">
+        <h1 class="titulo-cabecalho">BlackJack</h1>
+      </header>
+
+      <main class="conteudo-container">
+        <div class="conteudo-principal">
+          <section class="descricao-jogo">
+            <h2 class="subtitulo">REGRAS DO JOGO</h2>
+            <ul class="regras">
+              <li class="topicos">Os jogadores usam um baralho com muitas cartas. As cartas têm um número (A, 2, 3, 4, 5, 6, 7, 8, 9, 10, J , Q, K) e um naipe (Copas ♥️, Paus ♣️, Ouros ♦️ e Espadas ♠️). Por exemplo, uma carta do baralho é o dois de Paus (2♣️). Existem 52 possibilidades de cartas diferentes (13 números e 4 naipes).</li>
+              
+              <li class="topicos">Os jogadores compram cartas do baralho. Ao comprar uma carta do baralho, ela pode ser de qualquer uma das 52 cartas, com probabilidade igual.</li>
+              
+              <li class="topicos">As cartas tem um valor de acordo com seu número (a carta 4♣️ tem valor 4, e a carta 9♦️ tem valor 9). As cartas J, Q e K tem valor 10, e a carta A tem valor 11.</li>
+              
+              <li class="topicos">O jogo inicia com cada jogador (usuário e computador) recebendo 2 cartas. A pontuação de cada jogador é a soma do valor das suas cartas.</li>
+              
+              <li class="topicos">O jogador com a maior pontuação ganha a rodada!</li>
+            </ul>
+
+            <button class="botao-jogar" onclick="jogar()">JOGAR</button>
+            
+          </section>
+          <img class="img-blackjack"src="img/cartas.jpg" alt="Cartas">
+        </div>
+        
+      </main>
+      <footer class="rodape-container">
+        <p class="texto-desenvolvedor">Desenvolvido por Adriano Becco Nunes <p>
+        <div class="redes-socias">
+          <a href= "https://www.linkedin.com/in/adriano-becco-nunes-83222a1b5/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+          <a href="https://instagram.com/adrianobn.nunes" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+          <a href = "mailto:adrianobn.nunes@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>  
+          <a href= "https://github.com/adrianobnunes" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" target="_blank"></a>
+      </div>
+      </footer>
+    </div>
     
+    
+
+
+    <script type="application/javascript" src="naoMexer.js"></script>
     <script defer type="application/javascript" src="desafio.js"></script>
   </body>
 </html>
